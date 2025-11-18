@@ -4360,6 +4360,347 @@ They don’t make big documents — just a small model that everyone can underst
       answer: "",
       codeExample: ``
     },
+    {
+      id: 88888,
+      question: "Mid sem Questions & Ans",
+      answer: "",
+      codeExample: `
+✅ Q1 – Short Questions (1 mark each)
+(a) 3 Short Questions
+
+
+1) Define a system.
+
+A system is a group of parts that work together to achieve a common goal.
+Example: Hospital system, Banking system, Computer system.
+
+
+
+2) What is meant by software engineering?
+
+Software Engineering is the systematic, disciplined way of developing software using methods, tools and 
+processes so the software becomes reliable and efficient.
+
+
+
+3) List any two characteristics of good software.
+
+  Correctness (gives correct output)
+  Reliability (works properly for long time)
+  Efficiency (uses less memory & time)
+  Usability (easy to use)
+      
+  
+
+---------------------------
+
+
+(b) Objective / MCQ / True-False / Fill in the Blanks (7 questions)
+1) The SDLC phase concerned with determining user needs is called:
+👉 Requirement Analysis
+
+
+2) "The Waterfall model allows overlapping between stages." True or False?
+👉 False
+(Each stage is completed before the next begins.)
+
+
+3) ______ diagram is used to show data flow between processes and data stores.
+👉 DFD (Data Flow Diagram)
+
+
+4) In ER modeling, the relationship between entities is represented by:
+👉 Diamond shape
+
+
+5) Which of the following is an Agile methodology?
+(a) Spiral
+(b) Waterfall
+(c) Scrum
+(d) Incremental
+
+👉 Correct: Scrum
+
+
+
+6) The process of verifying requirements correctness is called:
+👉 Requirements Validation
+
+7) The component responsible for defining data storage structure during system design is called:
+👉 Database Schema / Data Design Component
+     
+
+
+-----------------------------------------------------------------------------------
+
+
+
+✅ Q2 – 2 marks & 3 marks questions
+
+(a) 2-MARK QUESTIONS
+
+1) Explain the need for information system development.
+
+We need information systems because:
+
+  To process data faster than manual work.
+  To reduce human errors.
+  To save time and cost.
+  To improve decision making with accurate information.
+  To automate repetitive tasks.
+
+
+
+2) Differentiate between software process and software product.
+
+| Software Process                                            | Software Product                                      |
+| ----------------------------------------------------------- | ----------------------------------------------------- |
+| Step-by-step method used to develop software.               | The final output created after following the process. |
+| Includes activities like analysis, design, coding, testing. | Includes apps, websites, software tools etc.          |
+| Invisible to users.                                         | Visible to users.                                     |
+
+
+---------------------------
+
+(b) 3-MARK QUESTIONS
+
+1) Compare the Waterfall model and Spiral model.
+
+| Waterfall Model                     | Spiral Model                         |
+| ----------------------------------- | ------------------------------------ |
+| Linear and sequential.              | Cyclic and iterative.                |
+| No feedback loops.                  | Feedback in every cycle.             |
+| Better for simple & small projects. | Better for large, risky projects.    |
+| Customer involvement only at start. | Customer involvement in every phase. |
+
+
+Example:
+
+Payroll system → Waterfall
+Banking / complex software → Spiral
+
+
+
+
+2) Explain the role of data dictionary in structured system analysis.
+
+Data Dictionary is a repository that stores details about data used in the system.
+
+It helps in:
+
+  Maintaining definitions of data elements.
+  Removing confusion between developers.
+  Ensuring consistency in DFD, ERD, and process models.
+  Reducing errors due to misunderstanding of data.
+
+
+-----------------------------------------------------------------------------------
+
+
+✅ Q3 (Attempt Any TWO)
+
+Q3.1 Draw & explain DFD of Library Management System
+(I will give Level 0 DFD)
+
+
+                 +-----------------------+
+User  ---------->|   Issue/Return Book   |
+                 +-----------+-----------+
+                             |
+                             v
+                      +--------------+
+                      |   Database   |
+                      | (Books Info) |
+                      +--------------+
+                             ^
+                 +-----------+-----------+
+Librarian ------>|   Manage Books Data  |
+                 +----------------------+
+
+
+Explanation (easy)
+
+Processes:
+
+1. Issue/Return Book: handles issuing or returning a book.
+2. Manage Books Data: librarian adds/removes/updates books.
+
+Data Store:
+  Books Database → stores book records.
+
+
+Q3.2 Advantages and limitations of Spiral Model
+
+✔ Advantages
+
+  Risk handling is very strong.
+  Customer feedback in every cycle.
+  Flexible — can change requirements.
+  Suitable for large & complex systems.
+
+✔ Limitations
+
+  Expensive due to repeated cycles.
+  Requires experienced risk managers.
+  Not suitable for small projects.
+
+
+Q3.3 Evaluate key differences between Traditional SDLC and Agile
+
+| Traditional SDLC                  | Agile                             |
+| --------------------------------- | --------------------------------- |
+| Linear, fixed phases.             | Iterative, incremental.           |
+| Very little customer involvement. | Continuous customer involvement.  |
+| Changes are difficult.            | Changes are welcomed anytime.     |
+| Slow delivery (one big release).  | Fast delivery (small iterations). |
+| More documentation-focused.       | More working-software-focused.    |
+
+
+-----------------------------------------------------------------------------------
+  
+✅ Q4 – 5 Marks
+
+Q4(a)
+Scenario: University wants to automate admission process
+Functional Requirements:
+
+1. Student Registration
+
+  Students enter personal details.
+
+
+2. Form Submission
+
+  Upload documents, fill application.
+
+
+3. Fee Payment
+
+  Online payment gateway.
+
+
+4. Application Status Check
+
+  Students track their status.
+
+
+5. Admin Panel
+
+  Approve/reject applications
+  Generate merit list
+
+
+Which SDLC model is most suitable? Why?
+
+👉 Recommended model: Spiral Model or Agile
+
+
+Reason:
+
+  Admission system has frequent changes.
+  Needs continuous updates.
+  Involves high risk (fees, data security).
+  Spiral/Agile allows feedback at each phase.
+
+
+
+Q4(b) Design Use Case Diagram for Online Shopping System
+
+Actors:
+
+  Customer
+  Admin
+  Payment Gateway
+
+
+Use Cases (5 minimum):
+
+  Browse Products
+  Add to Cart
+  Place Order
+  Make Payment
+  Manage Products (Admin)
+
+ASCII diagram:
+
+              (Customer)
+                   |
+   +----------------+----------------+
+   |                |                |
+(Browse)       (Add to Cart)     (Place Order)
+                   |
+               (Make Payment)----(Payment Gateway)
+
+                    (Admin)
+                       |
+                 (Manage Products)
+
+
+
+
+OR (Option for Q4b)
+Comparison between Scrum and Extreme Programming (XP)
+
+| Scrum                                          | Extreme Programming (XP)               |
+| ---------------------------------------------- | -------------------------------------- |
+| Focus on project management.                   | Focus on technical practices.          |
+| Uses roles: Product Owner, Scrum Master, Team. | Uses practices: Pair Programming, TDD. |
+| Work done in sprints (2–4 weeks).              | Work done in very small releases.      |
+| Daily standup meetings.                        | Continuous integration.                |
+| Less engineering guidance.                     | More engineering discipline.           |
+
+
+`
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+    {
+      id: 1,
+      question: "",
+      answer: "",
+      codeExample: ``
+    },
+
 
   ];
 
