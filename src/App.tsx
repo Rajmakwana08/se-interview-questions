@@ -4650,6 +4650,18 @@ Comparison between Scrum and Extreme Programming (XP)
 | Less engineering guidance.                     | More engineering discipline.           |
 
 
+
+
+| Scrum                              | Extreme Programming (XP)                        |
+| ---------------------------------- | ----------------------------------------------- |
+| More focus on management & process | More focus on coding practices                  |
+| Works in sprints (1–4 weeks)       | Works in very small releases (daily/weekly)     |
+| No strict coding standards         | Strong coding standards (TDD, Pair programming) |
+| Roles: PO, SM, Dev Team            | Roles: Developers + Coach                       |
+| Flexible but less technical        | Highly technical                                |
+
+
+
 `
     },
     {
