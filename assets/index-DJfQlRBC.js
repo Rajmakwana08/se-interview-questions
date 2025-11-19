@@ -4399,4 +4399,16 @@ Comparison between Scrum and Extreme Programming (XP)
 | Less engineering guidance.                     | More engineering discipline.           |
 
 
+
+
+| Scrum                              | Extreme Programming (XP)                        |
+| ---------------------------------- | ----------------------------------------------- |
+| More focus on management & process | More focus on coding practices                  |
+| Works in sprints (1–4 weeks)       | Works in very small releases (daily/weekly)     |
+| No strict coding standards         | Strong coding standards (TDD, Pair programming) |
+| Roles: PO, SM, Dev Team            | Roles: Developers + Coach                       |
+| Flexible but less technical        | Highly technical                                |
+
+
+
 `},{id:1,question:"",answer:"",codeExample:""},{id:1,question:"",answer:"",codeExample:""},{id:1,question:"",answer:"",codeExample:""},{id:1,question:"",answer:"",codeExample:""},{id:1,question:"",answer:"",codeExample:""},{id:1,question:"",answer:"",codeExample:""},{id:1,question:"",answer:"",codeExample:""},{id:1,question:"",answer:"",codeExample:""}],g=O=>{fe(M===O?null:O)};return Ne.jsxs("div",{className:"app-container",children:[Ne.jsx("h1",{children:"SE Interview Questions"}),Ne.jsx("div",{className:"questions-container",children:W.map(O=>Ne.jsxs("div",{className:"question-item",children:[Ne.jsx("button",{className:`question-button ${M===O.id?"active":""}`,onClick:()=>g(O.id),children:O.question}),M===O.id&&Ne.jsxs("div",{className:"answer-container",children:[Ne.jsxs("div",{className:"answer",children:[Ne.jsx("h3",{children:"Answer:"}),Ne.jsx("p",{children:O.answer})]}),O.codeExample&&Ne.jsxs("div",{className:"code-example",children:[Ne.jsx("h3",{children:"Code Example:"}),Ne.jsx("pre",{children:Ne.jsx("code",{children:O.codeExample})})]})]})]},O.id))})]})}ag.createRoot(document.getElementById("root")).render(Ne.jsx(Dd.StrictMode,{children:Ne.jsx(ng,{})}));
