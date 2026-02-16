@@ -5645,9 +5645,9 @@ Simple Diagram
        --------------------------
        |   Management Spectrum  |
        --------------------------
-        /         |           \
+        /         |           \\
  People      Product      Process
-                    \
+                    \\
                    Project
 
 
