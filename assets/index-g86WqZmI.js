@@ -5334,8 +5334,10 @@ Simple Diagram
        --------------------------
        |   Management Spectrum  |
        --------------------------
-        /         |            People      Product      Process
-                                       Project
+        /         |           \\
+ People      Product      Process
+                    \\
+                   Project
 
 
 Simple Meaning
